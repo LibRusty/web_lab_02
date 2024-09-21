@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: left;
+    height: 80px;
+    background-color: #EAEAEA; 
+}
+
+.content {
+    display: flex;
+    font-size: 16px;
+    font-family: fluid;
+}
+
+.left-column {
+    width: 200px;
+    padding: 5px;
+    background-color: #C8FC98;
+    flex-shrink: 0;
+}
+
+.content-column {
+    padding: 5px;
+    min-width: 0;
+}
+
+.font-red {
+    color: red;
+    font-style: italic;
+}
+
+.font-content {
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    height: 20px;
+    background-color: black;
+    color:#C8FC98;
+    font-size: 12px;
+}
+
+a {
+    color: #C8FC98;
+}
+
+/*
+color: #C8FC98
+#EAEAEA
+#FFFF80
+#FDE95E
+red
+blue
+green
+blueviolet
+darkred
+peru
+forestgreen
+indianred
+indigo
+white
+aqua
+bisque
+darkgray
+limegreen
+aquamarine
+*/

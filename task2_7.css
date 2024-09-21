@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Fluid;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет блокам переноситься на следующую строку */
+    justify-content: flex-start; /* Выравнивание по началу */
+}
+
+.static-div {
+    position: static; 
+    background-color: blueviolet;
+    padding: 0px;
+    width: 100px;
+    height: 80px;
+    margin: 0px;
+}
+
+.relative-first {
+    position: relative; 
+    background-color: darkred;
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 80px;
+}
+
+.relative-second {
+    position: relative; 
+    background-color: forestgreen;
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 80px;
+    right: -30px; 
+    top: -20px; 
+}
+
+.relative-third {
+    position: relative; 
+    background-color: indianred;
+    padding: 0px;
+    margin: 0px;
+    width: 500px;
+    height: 300px;
+}
+
+.absolute-div {
+    position: absolute; 
+    background-color: indigo;
+    padding: 0px;
+    width:180px;
+    height:130px;
+    top: 100px; 
+    right: 0px;
+    margin: 0px;
+}
+
+.fixed-div {
+    position: fixed; 
+    background-color: limegreen;
+    padding: 0px;
+    width: 70px;
+    height: 80px;
+    bottom: 0px; 
+    right: 0px; 
+    margin: 0px;
+}

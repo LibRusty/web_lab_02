@@ -1,0 +1,37 @@
+body {
+    padding: 0px; 
+    font-family: Fluid;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+
+}
+
+.centered-first-block {
+    margin: 10px;
+    padding: 0px; 
+    display: flex;
+    flex-direction: column; 
+    max-width: 500px; 
+    justify-content: center; 
+    align-items: center;  
+    background-color: green; 
+    color: white;
+    font-size: 16px; 
+    text-align: left; 
+}
+
+.centered-second-block {
+    margin: 10px;
+    padding: 40px 50px 40px 50px; 
+    display: flex;
+    flex-direction: column; 
+    max-width: 500px; 
+    justify-content: center; 
+    align-items: center;  
+    background-color: blue; 
+    color: white;
+    font-size: 16px; 
+    text-align: left; 
+}

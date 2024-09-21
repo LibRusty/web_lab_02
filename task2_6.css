@@ -1,0 +1,34 @@
+body {
+    padding: 0px; 
+    font-family: Fluid;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+
+}
+
+.centered-first-block {
+    margin: 10px;
+    padding: 0px; 
+    display: flex;
+    flex-direction: column; 
+    width: 500px; 
+    justify-content: center; 
+    align-items: center;  
+    font-size: 16px; 
+    text-align: left; 
+}
+
+.centered-second-block {
+    margin: 10px;
+    width: 400px;
+    padding: 40px 40px 40px 40px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;  
+    font-size: 16px; 
+    text-align: left; 
+    border: 10px solid blue;
+}

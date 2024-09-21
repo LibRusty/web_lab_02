@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: Fluid;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.centered-block {
+    padding: 0px; 
+    display: flex;
+    flex-direction: column; 
+    max-width: 500px; 
+    justify-content: center; 
+    align-items: center;  
+    background-color: blue; 
+    color: white;
+    font-size: 16px; 
+    text-align: center; 
+}
