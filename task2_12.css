@@ -1,0 +1,56 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper
+{
+    display: table;
+    margin: 12px;
+    border: 1px solid forestgreen;
+    background-color: aqua;
+}
+
+.menu, .paragraph_container
+{
+    margin-right: 7px;
+}
+
+.paragraph_container
+{
+    background-color: darkgray;
+}
+
+.content_box
+{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.menu
+{
+    background-color: bisque;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    width: 440px;
+}
+
+@media (max-width:600px)
+{
+    .content_box
+    {
+        display: block;
+        width: 80%;
+    }
+    .menu
+    {
+        width: fit-content;
+        padding-right: 20px;
+    }
+    .wrapper
+    {
+        display: block;
+    }
+}

@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    display: table-cell;
+    background-color: aqua;
+    width: 210px;
+}
+
+.wrapper {
+    display: table;
+    margin: 12px 9px 12px 12px;
+}
+
+.main-content {
+    background-color: darkgray;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.nav-list {
+    height: fit-content;
+    background-color: bisque;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+}
+
+.footer {
+    clear: both;
+    background-color: limegreen;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}

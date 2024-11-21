@@ -1,0 +1,16 @@
+.float_container {
+    float: left;
+    background-color: lightgreen;
+    width: 220px;
+    height: 110px;
+    margin: 18px;
+}
+
+.text-box {
+    margin: 0;
+}
+
+.clear_section {
+    clear: left;
+    background-color: bisque;
+}

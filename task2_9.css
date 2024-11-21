@@ -1,0 +1,16 @@
+.image-block {
+    float: right;
+    margin-left: 25px;
+    margin-bottom: 18px;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+}
+
+.description {
+    background-color: blue;
+    color: white;
+}
